@@ -1,5 +1,7 @@
 <script context="module">
 	export const prerender = true;
+	export const router = false;
+
 	export async function load({ page, fetch }) {
 		const res = await fetch(`https://api.mbl.archi/wp-json/wp/v2/posts?slug=${page.params.slug}`);
 		return {

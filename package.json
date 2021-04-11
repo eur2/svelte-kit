@@ -9,6 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@beyonk/svelte-carousel": "^2.8.0",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/adapter-static": "^1.0.0-next.4",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.8",
